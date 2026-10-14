@@ -173,6 +173,20 @@
           </div>
         </article>
 
+        <article class="card project-card featured">
+          <div class="card-body">
+            <h3>UK House Price Prediction</h3>
+            <p>Predicts UK sale prices from 2.7 million real Land Registry sales. Trained on 2023-24 and tested on unseen 2025 sales with leakage-safe target encoding; gradient boosting cut median error from 30.6% (district-median baseline) to 19.9%, with error analysis by region and honest limits (no floor area in the data).</p>
+            <ul class="tag-list small">
+              <li>Python</li><li>Scikit-learn</li><li>Gradient Boosting</li><li>Feature Engineering</li><li>Time-based Validation</li>
+            </ul>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Pulak-PSR/uk-house-price-prediction" target="_blank" rel="noopener">GitHub Repo &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card project-card featured">
           <div class="card-body">
             <h3>UK Property Price Data Pipeline</h3>
             <p>End-to-end pipeline processing 2.77 million HM Land Registry house sales: automated download, cleaning and pandera validation, an idempotent load into a SQL star schema, reporting views, and a Power BI dashboard spec with DAX. Outliers are flagged rather than deleted, and a CI-tested codebase (33 tests) runs on PostgreSQL, SQLite or SQL Server.</p>
